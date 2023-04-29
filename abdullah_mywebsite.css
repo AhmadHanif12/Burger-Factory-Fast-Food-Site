@@ -1,0 +1,260 @@
+/*Made by 21I-1917 Abdullah Abubaker*/
+
+@font-face {
+    font-family: 'Acme';
+    src: url('fonts/Acme-Regular.ttf');
+}
+
+.navbar-custom {
+    background-color: #f2f2f2;
+    height: 75px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#nav_button
+{
+    background-color: #D60000;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 199px;
+    width: 129px;
+    height: 44px;
+    color: #ffffff;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+.navtext
+{
+    padding: 20px;
+}
+
+#bannertext
+{
+    font-family: Acme;
+    margin-top: 10%;
+    font-size: 48px;
+}
+
+#menu-button
+{
+    background-color: #D60000;
+    font-family: Arial;
+    font-style: normal;
+    text-align: center;
+    border-radius: 199px;
+    width: 129px;
+    height: 44px;
+    color: #ffffff;
+}
+
+.smallcard
+{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+    width: 216px;
+    height: 246px;
+    margin: 12px;
+}
+
+.smallcardtext
+{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#smallcardbutton
+{
+    width: 163px;
+    height: 40px;
+    background: #D60000;
+    border-radius: 199px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#longbutton
+{
+    width: 570px;
+    height: 207px;
+    border-radius: 40px;
+    margin: 20px;
+    background: url('images/menu_image.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    color: #ffffff;
+}
+
+#bigimage
+{
+    width: 580px;
+    height: 270px;
+    background: #CCCCCC;
+    background: url('images/image_2.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#bigimage2
+{
+    width: 580px;
+    height: 270px;
+    background: #CCCCCC;
+    background: url('images/image_1.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#smallimage
+{
+    width: 580px;
+    height: 270px;
+    background: #CCCCCC;   
+    background: url('images/image_3.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#smallimage2
+{
+    width: 580px;
+    height: 270px;
+    background: #CCCCCC;
+    background: url('images/image_4.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.titlerow
+{
+    width: 1236px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menurow
+{
+    width: 1236px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menucard2
+{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+    width: 285px;
+    height: 320px;
+    margin: 12px;
+}
+
+.menucardtitle
+{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menucardtext
+{
+    font-family: Arial;
+    font-style: normal;
+    font-size: 13px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.menucardprice
+{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #D60000;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+#menucardbutton
+{
+    width: 143px;
+    height: 40px;
+    background: #D60000;
+    border-radius: 199px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+
+
+.font
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    white-space: nowrap;
+    font-weight: bolder;
+}
+
+#font_copyrights
+{
+    color: white; 
+    text-align: center; 
+    font-size: 11px;
+    position: relative;
+    top: 6px;
+}
+
+#footer
+{
+    background-color: #D1D1D1;
+    position: relative;
+    top: 150%;
+    height: 150px;
+}
+
+#copyright_div
+{
+    position: relative;
+}
+
+#image1_placement
+{
+    position: relative;
+    left: 357px;
+    top: 12px;
+    width: auto;
+    height: 82px;
+}
+
+#image2_placement
+{
+    position: relative;
+    left: 384px;
+    top: 12px;
+    width: auto;
+    height: 82px;
+}

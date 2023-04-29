@@ -1,0 +1,361 @@
+.navbar-custom {
+    background-color: #f2f2f2;
+    height: 75px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+}
+#navbar2 {
+    z-index: 9999;
+}
+
+
+#nav_button
+{
+    background-color: #D60000;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 199px;
+    width: 129px;
+    height: 44px;
+    color: #ffffff;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+.navtext
+{
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Acme';
+    src: url('fonts/Acme-Regular.ttf');
+  }
+/* Css of Cart Page */
+
+#checkout
+{
+
+    height: 309px;
+    width: 271px;
+    background-color: white;
+    border-radius: 31px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.445);
+    position: fixed;
+    margin-left: 175px;
+    margin-top:174px;
+}
+
+#checkout_button
+{
+    font-weight: 500;
+    border-radius: 50px; 
+    border-width: 0px; 
+    background-color: crimson; 
+    width: 63%; 
+    height: 12%;
+    position: relative;
+    left: 52px;
+    top: 3px;
+}
+
+
+#remove_btn
+{
+    font-weight: 500;
+    border-radius: 60px; 
+    border-width: 0px; 
+    background-color: crimson; 
+    height: 35px;
+    position: relative; 
+    left: 74%;
+    bottom: 28%;
+}
+
+#products
+{
+    height: 141px;
+    width: 849px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.445);
+    position: relative;
+}
+
+#product_des
+{
+    height: 32px;
+    width: 570px;
+    position: relative;
+    bottom: 18%;
+    left: 22.5%;
+}
+
+
+
+
+/* Css for Payment page */
+
+
+#checkout_2
+{
+
+    height: 253px;
+    width: 271px;
+    background-color: white;
+    border-radius: 31px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    position: relative;
+    top: 24%;
+    left: 41%;
+}
+
+#inputs
+{
+    border-radius: 15px;
+}
+
+
+#cash_div
+{
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    height: 7.5%;
+    border-radius:15px ;
+    background-color: white;
+    position: relative;
+    top: 4px;
+}
+
+.place_order
+{
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    height: 7.5%;
+    width: 40%;
+    border-radius:15px ;
+    background-color: crimson;
+    position: relative;
+    left: 43.3%;
+    bottom: 9.4%;
+}
+
+.place_ord
+{
+    font-weight: 500; 
+    color: white;
+    position: relative; 
+    text-align: center;
+    top: 2px;
+}
+
+
+
+/* Login CSS */
+
+#login_div
+{
+    height: 400px;
+    width: 400px;
+    background-color: #f2f2f2;
+    border-radius: 31px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    position: relative;
+    top: 18%;
+    left: 38%;
+}
+
+.login
+{
+    font-family: Acme;
+    position: relative;
+    top: 20%;
+    left: 35%;
+}
+
+#email
+{
+    width: 82.6%; 
+    position: relative; 
+    top: 125px;
+    left: 33px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#password
+{
+    width: 82.6%; 
+    position: relative; 
+    top: 140px;
+    left: 33px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.login_btn
+{
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    height: 12%;
+    width: 82.6%;
+    border-radius:15px ;
+    background-color: crimson;
+    position: relative;
+    top: 38%;
+    left: 8.5%;
+}
+
+/* SignUp CSS */
+
+
+#signup_div
+{
+    height: 480px;
+    width: 400px;
+    background-color: #f2f2f2;
+    border-radius: 31px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    position: relative;
+    top: 15%;
+    left: 38%;
+}
+
+.signup
+{
+    font-family: Acme;
+    position: relative;
+    top: 9%;
+    left: 35%; 
+}
+
+#name
+{
+    width: 82.6%; 
+    position: relative; 
+    top: 80px;
+    left: 37px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#email2
+{
+    width: 82.6%; 
+    position: relative; 
+    top: 90px;
+    left: 37px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#password2
+{
+    width: 82.6%; 
+    position: relative; 
+    top: 100px;
+    left: 37px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#confirm_pass
+{
+    width: 82.6%; 
+    position: relative; 
+    top: 110px;
+    left: 37px;
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signup_btn
+{
+    box-shadow:0 0 6px rgba(1, 0, 0, 0.247);
+    height: 10%;
+    width: 82.6%;
+    border-radius:15px ;
+    background-color: crimson;
+    position: relative;
+    top: 28%;
+    left: 8.9%;
+}
+
+/* Css of footer */
+
+
+
+.font
+{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 17px;
+    white-space: nowrap;
+    right: 390px;
+    font-weight: bold;
+}
+
+#font_copyrights
+{
+    color: white; 
+    text-align: center; 
+    font-size: 11px;
+    position: relative;
+    top: 6px;
+}
+
+#footer
+{
+    background-color: #D1D1D1;
+    position: relative;
+    top: 150%;
+    height: 150px;
+}
+
+#copyright_div
+{
+    position: relative;
+}
+
+#image1_placement
+{
+    position: relative;
+    left: 357px;
+    top: 12px;
+    width: auto;
+    height: 82px;
+}
+
+#image2_placement
+{
+    position: relative;
+    left: 384px;
+    top: 12px;
+    width: auto;
+    height: 82px;
+}
+/* Css of footer ends here */
+
+/* Css of Cart starts here */
+
+#mid_div
+{
+   background-color: #f2f2f2;
+}
