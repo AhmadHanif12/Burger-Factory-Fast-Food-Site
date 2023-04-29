@@ -1,0 +1,164 @@
+<!--Made By i211557 M Ahmad Hanif BS(CY)-T1  -->
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <link href="ahmad_mywebsite.css" rel="stylesheet">
+
+    <title>Burger Factory</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+  </head>
+  <body  class="container-fluid" style="background-color: #f2f2f2;">
+    <div class="row">
+        <!--Navbar code-->
+    <nav class="navbar navbar-expand-lg navbar-custom" style="width: 100%; position: fixed;" id="navbar2" >
+        <div class="col-1"> </div>
+        <div class="col collapse navbar-collapse nav-inner" id="navbarSupportedContent" style="display: flex; justify-content: center;"> 
+            <a class="navbar-brand" href="index.html" style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; ">
+             <img src="images/logo.png" alt="#" style="height: 60px; width: auto; position: relative;">
+            </a>
+            <ul class="navbar-nav mr-auto" style=" margin-left: 260px; margin-right: 260px; ">
+                <li class="nav-item navtext">
+                    <a class="nav-link" href="index.html" style="color: #000000; ">Home </a>
+                </li>
+                <li class="nav-item navtext">
+                    <a class="nav-link" href="menupage.html" style="color: #000000; ">Menu </a>
+                </li>
+                <li class="nav-item navtext">
+                    <a class="nav-link" href="dealspage.html" style="color: #000000; ">Deals </a>
+                </li>
+                <li class="nav-item navtext">
+                    <a class="nav-link" href="cartpage.html" style="color: #D60000; ">Cart </a>
+                </li>
+            </ul>
+            <a href="loginpage.html">
+                <button class="btn" id="nav_button"> Login </button> 
+            </a>             
+        </div>
+        <div class="col-1"> </div>
+    </nav>
+    </div>
+<!--Html of cart starts here-->
+ <div class="row">
+    <div class="col-4" style="height: 750px;width: 32%;">
+     <div id="checkout"> 
+      <b style="font-size: 27px; position:relative; left: 19.5%;top: 1px;">Total Amount</b>
+      <b style="font-size: 36px; position:relative; top: 20%; right: 27%; color: crimson;">$68</b>
+      <p style="font-size: 19px;font-weight:400;position: relative; top: 30%;left: 17px;">Subtotal <br>Delivery <br>Tax</p>
+      <p style="font-size: 19px;font-weight:700;position: relative;left: 81%;bottom: 8px;">$59 <br>&nbsp; $4<br>&nbsp; $5</p>
+      <a href="paymentpage.html">
+        <button class="btn" id="checkout_button">
+            <p style="font-weight: 500;color: white; text-align: center; position: relative; bottom: 1px;">Check Out</p>
+          </button>
+      </a>
+     </div>  
+    </div>
+     <div class="col-7" style="height: 850px;">
+        <div class="row" style="height: 9%; width: 100px; ">
+            <h2 style="font-family: Acme; position: relative; left: 220%;top: 100px; z-index: 500;">Cart</h2>
+        </div>
+        <div class="row" style="height: 18.2%; ">
+            <div id="products" style="position: relative; top:  100px;">
+                <img src="images/classic_burger.png" style="position: relative;top: 18%; left: 2.5%; height: 98px; width: 125px;">
+                <b style="font-size: 20px;position: relative; top: 2%; left: 7%;" >Double Classic Burger</b>
+               <div id="product_des">
+                <p style="font-size: 13px;font-weight:500;font-family: Arial, Helvetica, sans-serif; font-style: normal;  position: relative; bottom: 8px;">Double Ground Chicken, White Onion, Fresh Cilantro, Garlic, Jalapeno, Cumin, Paprika, Red Pepper Flakes</p>
+               </div>
+               <b style="font-size: 24px; position:relative; bottom: 72%; left: 92%; color: crimson;">$20</b>
+
+               <button class="btn" id="remove_btn"> 
+                <p style="color: white; text-align: center; position: relative; bottom: 1.5px;">Remove from Cart</p>
+            </button>
+            </div>
+            
+        </div>
+        <div class="row" style="height: 18.2%; ">
+            <div id="products" style="position: relative; top: 110px;">
+                <img src="images/zinger_burger.png" style="position: relative;top: 18%; left: 2.5%; height: 98px; width: 125px;">
+                <b style="font-size: 20px;position: relative; top: 2%; left: 7%;" >Zinger Burger</b>
+               <div id="product_des">
+                <p style="font-size: 13px;font-weight:500;font-family: Arial, Helvetica, sans-serif; font-style: normal;  position: relative; bottom: 8px;">Zinger Chicken White Onion, Fresh Cilantro, Garlic, Jalapeno, Cumin, Paprik, Red Pepper Flakes</p>
+               </div>
+               <b style="font-size: 24px; position:relative; bottom: 72%; left: 92%; color: crimson;">$12</b>
+               <button class="btn" id="remove_btn"> 
+                <p style="color: white; text-align: center; position: relative; bottom: 1.5px;">Remove from Cart</p>
+            </button>
+            </div>
+        </div>
+        <div class="row" style="height: 18.2%; ">
+            <div id="products" style="position: relative;top: 120px;">
+                <img src="images/jalapeno_burger.png" style="position: relative;top: 18%; left: 2.5%; height: 98px; width: 125px;">
+                <b style="font-size: 20px;position: relative; top: 2%; left: 7%;" >Jalapeno Burger</b>
+               <div id="product_des">
+                <p style="font-size: 13px;font-weight:500;font-family: Arial, Helvetica, sans-serif; font-style: normal;  position: relative; bottom: 8px;">Chicken Breast, White Onion, Fresh Cilantro, Garlic, Jalapeno Cumin Paprika, Red Pepper Flakes</p>
+               </div>
+               <b style="font-size: 24px; position:relative; bottom: 72%; left: 92%; color: crimson;">$12</b>
+               <button class="btn" id="remove_btn"> 
+                <p style="color: white; text-align: center; position: relative;bottom: 1.5px;">Remove from Cart</p>
+            </button>
+            </div>
+        </div>
+        <div class="row" style="height: 18.2%; ">
+            <div id="products" style="position: relative; top: 130px;">
+                <img src="images/beef_burger.png" style="position: relative;top: 18%; left: 2.5%; height: 98px; width: 125px;">
+                <b style="font-size: 20px;position: relative; top: 2%; left: 7%;" >Beef Burger</b>
+               <div id="product_des">
+                <p style="font-size: 13px;font-weight:500;font-family: Arial, Helvetica, sans-serif; font-style: normal;  position: relative; bottom: 8px;">Ground Beef White Onion Fresh Cilantro, Garlic, Jalapeno, Cumin, Paprika. Red Pepper Flakes</p>
+               </div>
+               <b style="font-size: 24px; position:relative; bottom: 72%; left: 92%; color: crimson;">$13</b>
+               <button class="btn" id="remove_btn"> 
+                <p style="color: white; text-align: center; position: relative;bottom: 1.5px;">Remove from Cart</p>
+            </button>
+            </div>
+        </div>
+    </div>
+     <div class="col-sm"></div>
+ </div>
+    
+<!--Html of cart ends here-->    
+
+
+
+   <!--Footer-->
+   <div style="position: relative; bottom: 0; width: 100%;">
+    <div class="row" id="footer" style="margin-top: 10px; ">
+        <div class="col-1"></div>
+        <div class="row"> 
+            <div class="col" style="display: flex; justify-content: center;">
+                <div>
+                   <a href="index.html">
+                      <img src="images/logo.png" alt="#" style="width: auto; height: 60px; position: relative; right: 390px;" >
+                   </a>
+                               
+                    <p class="font" style="font-size: 13px;">F-11 Markaz, behind Shaheen Chemist</p>  
+                
+                </div>
+                <a href="https://www.instagram.com/" target="_blank" style="height: 82px; width: 82px;" id="image1_placement">
+                    <img src="images/Instagram.png" >
+                </a> 
+                <a href="https://www.facebook.com/" target="_blank" style="height: 82px; width: 82px;" id="image2_placement">
+                    <img src="images/Facebook Circled.png" > 
+                </a> 
+            </div>  
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+    <!--Footer div for copyrights-->
+    <div class="col-1"></div>
+    <div class="row" id="copyright_div" style="background-color: black;">
+        <p id="font_copyrights">Made by 21I-1917 Abdullah & 21I-1557 Ahmed for IICT Project 2021</p>
+    </div>
+</div>
+    <!--Html of footer ends here-->
+
+  </body>
+</html>
